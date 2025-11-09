@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>CRM - Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>CRM Simple</h1></header>
+<div class="container">
+  <div class="card" style="max-width:420px;margin:2rem auto">
+    <h2>Entrar</h2>
+    <form id="loginForm">
+      <label>Email</label><br>
+      <input id="email" type="email" required style="width:100%;padding:.5rem;margin:.4rem 0"><br>
+      <label>Senha</label><br>
+      <input id="password" type="password" required style="width:100%;padding:.5rem;margin:.4rem 0"><br>
+      <button type="submit">Login</button>
+      <button type="button" id="gotoRegister" class="secondary" style="margin-left:8px">Registrar</button>
+    </form>
+    <p id="msg" style="color:red"></p>
+  </div>
+</div>
+<script type="module" src="js/api.js"></script>
+<script type="module" src="js/auth.js"></script>
+</body>
+</html>

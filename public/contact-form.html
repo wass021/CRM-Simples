@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><title>Novo Contato</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header>
+  <h1>Novo Contato</h1>
+  <div><button onclick="location.href='./contacts.html'">Voltar</button></div>
+</header>
+<div class="container">
+  <div class="card" style="max-width:600px">
+    <form id="contactForm">
+      <label>Nome</label><br><input id="name" required style="width:100%;padding:.5rem"><br>
+      <label>Email</label><br><input id="email" style="width:100%;padding:.5rem"><br>
+      <label>Telefone</label><br><input id="phone" style="width:100%;padding:.5rem"><br><br>
+      <button type="submit">Salvar</button>
+      <p id="msg"></p>
+    </form>
+  </div>
+</div>
+<script src="js/contact-form.js"></script>
+</body>
+</html>
